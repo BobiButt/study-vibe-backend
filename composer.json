@@ -48,7 +48,7 @@
     "post-install-cmd": [
         "@php artisan optimize"
     ]
-}
+},
     "extra": {
         "laravel": {
             "dont-discover": []
