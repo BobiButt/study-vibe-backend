@@ -1,0 +1,7 @@
+name: laravel-backend
+version: 1.0.0
+web:
+  listen: "0.0.0.0:8080"
+env:
+  - APP_ENV=production
+  - APP_DEBUG=false
