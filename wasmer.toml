@@ -16,7 +16,6 @@ command = "composer install --no-dev --optimize-autoloader"
 [env]
 APP_ENV = "production"
 APP_DEBUG = "false"
-APP_KEY = "base64:YOUR_KEY_HERE"
 
 [web]
 listen = "0.0.0.0:8080"
