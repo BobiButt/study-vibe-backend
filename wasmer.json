@@ -1,0 +1,10 @@
+{
+  "package": "study-vibe-backend",
+  "version": "1.0.0",
+  "commands": [
+    {
+      "name": "start",
+      "command": "php -S 0.0.0.0:8080 -t public"
+    }
+  ]
+}
