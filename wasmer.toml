@@ -3,19 +3,7 @@ version = "1.0.0"
 
 [dependencies]
 php = "8.2"
-composer = "2"
 
 [[command]]
 name = "start"
-command = "php artisan serve --host=0.0.0.0 --port=8080"
-
-[[command]]
-name = "build"
-command = "composer install --no-dev --optimize-autoloader"
-
-[env]
-APP_ENV = "production"
-APP_DEBUG = "false"
-
-[web]
-listen = "0.0.0.0:8080"
+command = "php -S 0.0.0.0:8080 -t public"
